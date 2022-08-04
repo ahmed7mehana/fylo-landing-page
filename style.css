@@ -1,0 +1,484 @@
+:root{
+--Primary-1 :hsl(243, 87%, 12%);
+--Primary-2 :hsl(238, 22%, 44%);
+--btn-1 : hsl(224, 93%, 58%);
+--Accent-2 : hsl(170, 45%, 43%);
+--Neutral-1: hsl(240, 75%, 98%);
+--Neutral-2: hsl(0, 0%, 75%);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    padding-left: 40px; 
+     padding-right: 40px;
+    padding-top: 26px;
+    margin-top: 12px;
+}
+.head .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+/* start bar */
+.head .nav >img {
+    width: 113px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li{
+    margin-left: 57px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:var(--Primary-2);
+}
+/* end bar */
+/* start section-1 */
+.head .section-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.head .section-one img {
+    width: 53%;
+}
+.head .section-one .text{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.head .section-one .text h1{
+color: var(--Primary-1);
+}
+.head .section-one .text p{
+    color: var(--Primary-2);
+}
+.head .section-one .text .btn{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 45px;
+    background-color: var(--btn-1);
+    color: white;
+    margin-left: 10px;
+    border: none;
+    transition: 0.1s ease;
+}
+.head .section-one .text .btn:hover{
+ box-shadow: 1px 1px 3px var(--Primary-2);
+}
+.head .section-one .text .input{
+padding: 6px 30px ;
+}
+/* end section-1 */
+/* start section-2 */
+.head .section-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    background-color: var(--Neutral-1);
+    width: 100%;
+}
+.head .section-two .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.head .section-two .photo {
+    width: 48%;
+}
+.head .section-two .text h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--Primary-1);
+}
+.head .section-two .text p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--Primary-2);
+    width: 83%;
+}
+.head .section-two .link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.head .section-two .link a{
+    border-bottom: solid 2px  var(--Accent-2);
+    margin-left: 5px;
+    color: var(--Accent-2);
+}
+.head .section-two .link img{
+    margin-left: 7px;
+}
+.head .section-two .quotes{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 9px var(--Primary-2);
+    width: 50%;
+    height: 100%;
+    padding: 21px 25px 16px;
+    margin-top: 30px;
+}
+.head .section-two .quotes p {
+    font-size: 12px;
+    line-height: 1.5;
+    width: 100%;;
+}
+.head .section-two .quotes .info {
+    display: flex;
+    align-items: center;
+}
+.head .section-two .quotes .info img{
+    width: 41px;
+    border-radius: 50%;
+}
+.head .section-two .quotes .info .details h1{
+    font-size: 11px;
+}
+.head .section-two .quotes .info .details h1 {
+    margin-left: 17px;
+}
+.head .section-two .quotes .info .details  p{
+    margin-top: -7px;
+    font-size: 10px;
+    margin-left: 12px;
+    width: 100%;
+}
+/* end section-2 */
+/* start section-3 */
+.head .section-three .container{
+ display: flex;
+align-items: center;
+}
+.head .section-three {
+    display: flex;
+    background-color: var(--Primary-2);
+    height: 269px;
+}
+.head .section-three .text{
+    width: 50%;
+    margin-left: 20px;
+}
+.head .section-three .text h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--Neutral-1);
+}
+.head .section-three .text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: var(--Neutral-1);
+}
+.head .section-three .button  {
+margin-left: 60px;
+}
+.head .section-three .button .input {
+    padding: 4px;
+    width: 92%;
+}
+.head .section-three .button .btn{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 45px;
+    background-color: var(--btn-1);
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+/* end section-3*/
+.head .section-four{
+background-color: var(--Primary-1); 
+}
+.head .section-four .contact{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+.section-four .contaner .part-one .logo img{
+    width: 55%;}
+.section-four .contact .part-one{
+    font-size: 14px;
+    color: var(--Neutral-1);
+    margin-bottom: 79px;
+}
+.section-four .contact .part-one .photo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-four .contact .part-one .phon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-four .contact .part-one .phon p {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    margin: 7px;}
+.section-four .contact .part-one .gmil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-four .contact .part-one .gmil p {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    margin: 7px;}
+.section-four .contact .part-one img{
+    height: 11px;
+    width: 11px;
+margin: 5px;
+}
+.section-four .contact .part-two ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+}
+.section-four .contact .part-two ul li{
+    margin: 3px;
+color: var(--Neutral-1);
+}
+.section-four .contact .part-two  a{
+    color: var(--Neutral-1);
+    font-size: 12px;
+}
+.section-four .contact .part-three ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+.section-four .contact .part-three ul li{
+    margin: 3px;
+}
+.section-four .contact .part-three a{
+    color: var(--Neutral-1);
+    font-size: 12px;
+}
+.section-four .contact .icon {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.section-four .contact .icon i{
+    margin-left: 14px;
+    color: var(--Neutral-1);
+}
+.section-four .contact .part-one .logo{
+    width: 91%;
+    height: 89%;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width:800px){
+    .head .section-one {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 70px;
+        align-items: center;
+    }
+    .head .section-one .text {
+        text-align: center;
+        font-size: 18px;
+        width: 82%;
+        }
+        .head .section-one .text p {
+            font-size: 17px;
+            
+        }
+        .head .section-one .text .input {
+            width:80%;
+            padding: 14px;
+        }
+        .head .section-one .text .btn {
+            margin-top: 17px;
+            width: 80%;
+            border-radius: 10px;
+            padding: 14px;
+            margin-left: 0;
+        }
+        .head .section-two .container {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .head .section-two .text {
+            width: 78%;
+        }
+        .head .section-two .text h1 {
+            font-size: 25px;
+            text-align: center;
+        }
+        .head .section-two .text p {
+            font-size: 18px;
+        }
+        .head .section-two .link {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+.head .section-two .link img {
+            width: 6%;
+            margin-top: 15px;
+        }
+.head .section-two .quotes {
+    width: 86%;
+    padding: 21px;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+.head .section-three .container {
+    display: flex;
+    flex-direction: column;
+}
+.head .section-three .text {
+    width: 100%;
+}
+.head .section-three .text h1 {
+    text-align: center;
+}
+.head .section-three .text p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    width: 473px;
+}
+    .head .section-three .button {
+    padding: 10px;
+    width: 69%;
+    margin-left:0;
+}
+.head .section-one .text h1 {
+    font-size: 18px;
+}
+    .head .section-three .button .input {
+        padding: 10px;
+        width: 69%;
+        margin-left: 41px;
+    }
+    .head .section-three .button .btn {
+        padding: 10px;
+        width: 75%;
+        margin-left: 41px;
+        }
+        .head .section-four .contact {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-left: 91px;
+            height: auto;
+        }
+        .section-four .contact .part-one {
+            margin-bottom: 0;
+        }
+        .section-four .contact .part-one .phon p {
+            font-size: 17px;
+        }
+        .section-four .contact .part-one .gmil p {
+            font-size: 17px;
+        }
+        .section-four .contact .part-one img {
+            height: 20px;
+            width: 20px;  }
+            .section-four .contact .part-one .logo {
+                width: 77%;
+                height: 87%;
+                margin-top: 32px;
+            }
+            .section-four .contact .part-two a {
+                font-size: 18px;
+            }
+            .section-four .contact .part-three ul {
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+
+            .section-four .contact .part-three a {
+                font-size: 18px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .section-four .contact .icon {
+                margin-left: 34%;
+                margin-bottom: 60px;
+            }
+            .section-four .contact .icon i {
+                font-size: 24px;
+            }
+            .head .nav {
+                display: flex;
+                /* width: 94%; */
+                align-items: center;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .head .section-three {
+                display: flex;
+                background-color: var(--Primary-2);
+                height: 269px;
+                align-items: center;
+                flex-direction: column;
+            }
+            }
+
+@media(max-width:500px){
+    a {
+        font-size: 10px;}
+        .head .nav >img {
+            width: 61px;
+        }
+        .head .section-three .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .head .section-three .text h1 {
+            text-align: center;
+            font-size: 17px;
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        li {
+            margin-left: 37px;
+            text-decoration: none;
+        }
+        .head .section-three .text p {
+            text-align: center;
+            font-size: 8px;
+            margin: 0;
+            width: 315px;
+            margin: auto;
+        }
+}
